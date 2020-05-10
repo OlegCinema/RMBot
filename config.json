@@ -1,0 +1,10 @@
+{
+	"prefix": "globalPrefix",
+	"token": "YourBotToken",
+	"redis_auth": {
+		"user": "user",
+		"password": "password",
+		"host": "localhost",
+		"port": "6379"
+	}
+}
