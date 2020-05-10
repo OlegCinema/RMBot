@@ -7,17 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "discord",
-    "bot",
-    "js",
-    "roles",
+    "discord js",
+    "discord bot",
+    "discord js bot",
+    "discord.js",
     "discord"
   ],
   "author": "OlegCinema",
   "license": "ISC",
   "dependencies": {
     "@keyv/redis": "^2.1.1",
-    "@keyv/sqlite": "^2.0.2",
     "discord.js": "^12.2.0",
     "eslint": "^7.0.0",
     "keyv": "^4.0.1"
