@@ -5,4 +5,4 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/OlegCinema/RMBot?branch=master)](https://bettercodehub.com/)
 [![DeepScan grade](https://deepscan.io/api/teams/8564/projects/11409/branches/169439/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=8564&pid=11409&bid=169439)
 
-Discord bot, written in JS, is using for adding or deleting roles in guilds.
+Discord bot, written in JS, is used for adding or deleting roles in guilds.
