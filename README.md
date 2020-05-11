@@ -16,7 +16,7 @@ After that, configure config.json (see comments) and run using `node bot.js`. Al
 The bot uses **Redis Storage** for store data, so it's required.
 
 # Using
-See how to use it on Gist:
+See how to use it on Gist: (Guide)[https://gist.github.com/OlegCinema/a91471cd33ffafa2f773ca81ea446c57].
 
 # Requirements
 Requirement | Version | Comment
