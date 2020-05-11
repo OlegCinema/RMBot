@@ -25,7 +25,10 @@ for (const file of commandFiles) {
 
 // Does something when the bot's getting a message
 client.on('message', async message => {
-	const prefixGuild = (await keyv.get(`${message.guild.id}`)).prefix;
+	let prefixGuild = prefix;
+	if (message.guild !== null) {
+		prefixGuild = (await keyv.get(`${message.guild.id}`)).prefix;
+	}
 
 	if (!message.content.startsWith(prefixGuild) || message.author.bot) return;
 
