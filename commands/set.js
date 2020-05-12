@@ -56,7 +56,7 @@ module.exports = {
 			);
 		}
 		catch (err) {
-			await message.channel.send('Sorry, I cannot find data you had sent');
+			await message.channel.send('Sorry, I cannot find data you sent');
 			console.log(err);
 		}
 
