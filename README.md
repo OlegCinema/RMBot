@@ -11,9 +11,9 @@ Discord bot, written in JS, is used for adding or deleting roles in guilds.
 
 # Installation
 You can install it using `git clone https://github.com/OlegCinema/RMBot.git` and then execute `npm install` to get all requirements.
-After that, configure config.json (see comments) and run using `node bot.js`. Also, don't forget to create your bot app on Discord Dev Portal.
+After that, configure config.json (see comments) and run using `npm start`. Also, don't forget to create your bot app on Discord Dev Portal.
 
-The bot uses **Redis Storage** for storing data, so it's required.
+The bot uses **Sqlite** for storing data, so it's required.
 
 # Using
 See how to use it on Gist: [Guide](https://gist.github.com/OlegCinema/a91471cd33ffafa2f773ca81ea446c57).
@@ -23,5 +23,5 @@ Requirement | Version | Comment
 ------------ | ------------- | ------------- 
 Discord.js | [^12.2.0](https://github.com/discordjs/discord.js) | -
 keyv | [^4.0.1](https://github.com/lukechilds/keyv) | -
-@keyv/redis | [^2.1.1](https://github.com/lukechilds/keyv-redis) | -
+@keyv/sqlite | [^2.1.1](https://github.com/lukechilds/keyv-sqlite) | -
 eslint | [^7.0.0](https://github.com/eslint/eslint) | You can skip it.

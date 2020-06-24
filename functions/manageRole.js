@@ -1,8 +1,8 @@
-const { redis_auth } = require('./../config.json');
+const { sqlite } = require('./../config.json');
 
 const Keyv = require('keyv');
 const keyv = new Keyv(
-	`redis://${redis_auth.user}:${redis_auth.password}@${redis_auth.host}:${redis_auth.port}`,
+	`sqlite://${sqlite.path}.${sqlite.format}`,
 	{ serialize: JSON.stringify, deserialize: JSON.parse },
 );
 keyv.on('error', err => console.log('Connection Error', err));
@@ -20,10 +20,10 @@ module.exports.manageRole = async (message, user, action) => {
 
 			switch(action) {
 			case 'add':
-				member.roles.add(role, 'The user has gotten the role because of reacting.');
+				member.roles.add(role, 'User got the role by adding a reaction.');
 				break;
 			case 'remove':
-				member.roles.remove(role, 'The role was deleted because of removing reacting.');
+				member.roles.remove(role, 'The role was deleted because the reaction was removed.');
 				break;
 			default:
 				break;

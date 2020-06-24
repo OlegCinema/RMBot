@@ -2,7 +2,7 @@ module.exports = {
 	name: 'set',
 	guildOnly: true,
 	adminOnly: true,
-	description: 'Sets role is needed to add if user add reaction.',
+	description: 'Sets which role will be added upon a certain reaction.',
 	async execute(message, args, keyv) {
 		// !set <messageID> <emoji> <role>
 		const messageID = args[0];
@@ -51,7 +51,7 @@ module.exports = {
 			await msg.react(emoji);
 			await message.channel.send(
 				`OK! Now you can delete special messages and use my super functionalities!:)\n
-				:man_police_officer_tone2: What happened? Presently each user can get a role, reacting to message. 
+				:man_police_officer_tone2: What happened? At the moment, all users can get a role by adding a reaction to this message. 
 				If you want to delete it, use **unset**.`,
 			);
 		}

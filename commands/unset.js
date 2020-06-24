@@ -2,7 +2,7 @@ module.exports = {
 	name: 'unset',
 	guildOnly: true,
 	adminOnly: true,
-	description: 'Unsets role is needed to add if user add reaction.',
+	description: 'Removes the role that will be added upon a certain reaction.',
 	async execute(message, args, keyv) {
 		// !unset <messageID> <emoji>(Optional)
 		const messageID = args[0];

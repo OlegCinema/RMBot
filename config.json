@@ -1,10 +1,8 @@
 {
-    "prefix": "globalPrefix",
-    "token": "YourBotToken",
-    "redis_auth": {
-        "user": "user",
-        "password": "password",
-        "host": "localhost",
-        "port": "6379"
+    "prefix": "!",
+    "token": "NzA4NjM0NzY1OTQ2NzgxNzE2.XvMhsQ.aXhpYzTZbFDWZQHJym9m6Vj4V1M",
+    "sqlite": {
+        "path": "database",
+        "format": "sqlite"
         }
 }

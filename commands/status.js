@@ -1,6 +1,6 @@
 module.exports = {
 	name: 'status',
-	description: 'Returns bot\'s status working.',
+	description: 'Returns the status of the bot.',
 	execute(message) {
 		const getRandomInt = (min, max) => {
 			return Math.floor(Math.random() * (max - min)) + min;

@@ -1,11 +1,11 @@
 const fs = require('fs');
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ['MESSAGE', 'CHANNEL', 'REACTION'] });
-const { prefix, token, redis_auth } = require('./config.json');
+const { prefix, token, sqlite } = require('./config.json');
 const { manageRole } = require('./functions/manageRole');
 const Keyv = require('keyv');
 const keyv = new Keyv(
-	`redis://${redis_auth.user}:${redis_auth.password}@${redis_auth.host}:${redis_auth.port}`,
+	`sqlite://${sqlite.path}.${sqlite.format}`,
 	{ serialize: JSON.stringify, deserialize: JSON.parse },
 );
 keyv.on('error', err => console.log('Connection Error', err));
