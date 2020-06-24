@@ -23,5 +23,5 @@ Requirement | Version | Comment
 ------------ | ------------- | ------------- 
 Discord.js | [^12.2.0](https://github.com/discordjs/discord.js) | -
 keyv | [^4.0.1](https://github.com/lukechilds/keyv) | -
-@keyv/sqlite | [^2.1.1](https://github.com/lukechilds/keyv-redis) | -
+@keyv/redis | [^2.1.1](https://github.com/lukechilds/keyv-redis) | -
 eslint | [^7.0.0](https://github.com/eslint/eslint) | You can skip it.
