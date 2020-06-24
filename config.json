@@ -1,6 +1,6 @@
 {
     "prefix": "!",
-    "token": "NzA4NjM0NzY1OTQ2NzgxNzE2.XvMhsQ.aXhpYzTZbFDWZQHJym9m6Vj4V1M",
+    "token": "YourBotToken",
     "sqlite": {
         "path": "database",
         "format": "sqlite"
