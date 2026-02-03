@@ -17,7 +17,7 @@
   "author": "OlegCinema",
   "license": "MIT",
   "dependencies": {
-    "@keyv/sqlite": "^2.0.2",
+    "@keyv/sqlite": "^2.0.3",
     "discord.js": "^12.2.0",
     "eslint": "^7.0.0",
     "keyv": "^4.0.1"
